@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="5dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/buttondesign"
+    tools:context="com.example.shivam.attendanceappminor.EnterBatchDetails">
+    <android.support.v7.widget.CardView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="@android:color/white">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:minHeight="400dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+<EditText
+    android:background="@drawable/edittextdesign"
+    android:gravity="center"
+    android:minHeight="40dp"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:textColor="@android:color/holo_orange_dark"
+    android:hint="Enter Course Name"
+    android:id="@+id/batch_course_name"
+    />
+    <EditText
+        android:minHeight="40dp"
+        android:background="@drawable/edittextdesign"
+        android:textColor="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/start_year"
+        android:hint="Enter Start Year"/>
+    <EditText
+        android:background="@drawable/edittextdesign"
+        android:textColor="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:id="@+id/end_year"
+        android:hint="Enter End Year"/>
+    <EditText
+
+        android:background="@drawable/edittextdesign"
+        android:textColor="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/select_stream"
+        android:hint="Enter Stream"/>
+    <EditText
+        android:background="@drawable/edittextdesign"
+        android:textColor="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/subject_taught"
+        android:minHeight="40dp"
+        android:hint="Enter Subject To Be Teach"/>
+
+      <LinearLayout
+          android:layout_marginTop="10dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:minHeight="50dp"
+          android:orientation="horizontal"
+          >
+
+          <EditText
+              android:minHeight="40dp"
+              android:background="@drawable/edittextdesign"
+              android:textColor="@android:color/holo_orange_dark"
+              android:gravity="center"
+
+              android:layout_marginRight="10dp"
+              android:layout_width="0dp"
+              android:id="@+id/upload_file_edit_text"
+              android:layout_height="match_parent"
+              android:hint=" Student File name"
+              android:layout_weight="1"/>
+          <Button
+
+              android:layout_marginLeft="10dp"
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:id="@+id/btnupload"
+              android:layout_weight="1"
+              android:background="@android:color/holo_green_dark"
+              android:text="Upload Student File"/>
+
+
+      </LinearLayout>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/submit_btn"
+        android:text="SUBMIT"
+        android:background="@android:color/holo_green_dark"/>
+</LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="@drawable/buttondesign">
+
+    <TextView
+        android:background="@drawable/edittextdesign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Quiz Time "
+        android:minHeight="40dp"
+        android:id="@+id/tvsettime"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:background="@drawable/edittextdesign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Subject: Software Testing "
+        android:minHeight="40dp"
+
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:background="@drawable/edittextdesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Designed By: Anjana "
+        android:minHeight="40dp"
+
+        android:gravity="right"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:background="@drawable/edittextdesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" (ID: HC101) "
+        android:minHeight="40dp"
+
+        android:gravity="right"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Quiz"
+        android:background="@android:color/holo_green_dark"
+        android:id="@+id/btnstartquiz"/>
+</LinearLayout>

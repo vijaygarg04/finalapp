@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchQuiz"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@drawable/buttondesign">
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="10dp"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@android:color/white">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="180dp"
+            android:orientation="vertical"
+            android:layout_margin="15dp"
+    android:gravity="center"
+            tools:context="com.example.shivam.attendanceappminor.AdminDashboardActivity">
+
+        <EditText
+        android:minHeight="60dp"
+        android:background="@drawable/edittextdesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etquizcode"
+        android:hint="Enter Quiz Code"
+        android:gravity="center"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Quiz"
+        android:id="@+id/btnsearchquiz"
+        android:background="@android:color/holo_green_dark"/>
+
+</LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

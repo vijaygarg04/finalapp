@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:background="@drawable/buttondesign"
+    android:padding="10dp"
+    tools:context="com.example.shivam.attendanceappminor.LoginChooser">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="@android:color/white">
+
+        <LinearLayout
+
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LogIn As"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:textSize="35sp"/>
+    <Button
+        android:layout_marginTop="15dp"
+        android:minHeight="60dp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/admin_btn"
+        android:text="ADMINISTRATor"
+        />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:minHeight="60dp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:text="Faculty"
+        android:id="@+id/faculty_btn"
+
+        />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:minHeight="60dp"
+        android:background="@android:color/holo_green_dark"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:id="@+id/student_btn"
+        android:text="student"
+    />
+
+</LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shivam.attendanceappminor.QuizFaculty"
+    android:background="@drawable/buttondesign"
+    android:gravity="center">
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="10dp"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@android:color/white">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="140dp"
+            android:orientation="vertical"
+            android:layout_margin="15dp"
+
+            tools:context="com.example.shivam.attendanceappminor.AdminDashboardActivity">
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_green_dark"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Upload Quiz"
+        android:id="@+id/upload_quiz"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/get_results_btn"
+        android:text=" Generate Results"/>
+</LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

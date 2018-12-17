@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/buttondesign"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivam.attendanceappminor.UploadQuizActivity">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="@android:color/white">
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="300dp"
+            android:orientation="vertical">
+    <EditText
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/edittextdesign"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:hint="QuizName"
+        android:id="@+id/quizname"/>
+    <EditText
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextdesign"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:hint="QuizTime(in mins)"
+        android:id="@+id/quiztime"/>
+
+    <EditText
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextdesign"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:hint="Filename"
+        android:id="@+id/questionfilename"/>
+    <EditText
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextdesign"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:hint="Batch Name"
+        android:id="@+id/batch_id_quiz"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:text="Upload"
+        android:background="@android:color/holo_green_dark"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnuploadquestion"/>
+</LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+
